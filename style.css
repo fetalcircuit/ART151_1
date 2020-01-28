@@ -1,0 +1,91 @@
+body{
+	padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	border: 10px 10px 10px 10px;
+	border-color: hotpink;
+}
+
+a {
+  color: hotpink;
+}
+
+#header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 10px;
+}
+
+.p1{
+  background: url(../images/mobile.png) no-repeat center center fixed;
+  padding:5px 5px 5px 50px;
+  background-color: black;
+  color: white;
+  margin: 100px 100px 10px 100px;
+}
+
+.p2{
+  padding:5px 50px 5px 50px;
+  margin: 100px 500px 10px 100px;
+  letter-spacing: 3px;
+}
+
+html {
+ 	background: url(../images/cary.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover; q
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes positionChange {
+    0%   {left:30%;}
+    25%  {left:60%;}
+    50%  {left:10%;}
+    100% {left:30%;}
+}
+
+/* Standard syntax */
+@keyframes positionChange {
+    0%   {left:30%;}
+    25%  {left:60%; top:20px;}
+    50%  {left:10%;}
+    100% {left:30%;}
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+
+
+#static1{
+  opacity: .2;
+	width:300px;
+	height:300px;
+	top:400px;
+	background-color: rgb(67, 85,195);
+	position: absolute;
+	display:inline-block;
+	-webkit-animation-name: positionChange; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, */
+    animation-iteration-count: infinite;
+    animation-name: positionChange;
+    animation-duration: 5s;
+
+.carVideo{
+	width:400px;
+	position: absolute;
+	left: 10%;
+	top:20%;
+	display:inline-block;
+}
